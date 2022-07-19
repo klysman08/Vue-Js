@@ -3,20 +3,28 @@
     in incididunt eiusmod dolore aliqua ea. Ea elit anim officia non aliquip ea id in do pariatur cillum sit irure aliquip. 
     Anim qui est labore cupidatat aute nulla cillum excepteur qui incididunt.
     </p>
-    <ul>
+
+    <ul v-if="its_working">
         <li>Hability 1</li>
         <li>Hability 2</li>
         <li>Hability 3</li>
+    </ul>
 
+    <ul v-else>
+    <li>Hability 4</li>
+    <li>Hability 5</li>
+    <li>Hability 6</li>
     </ul>
 </template>
 
 <script>
     export default {
         name: 'Info',
-        components: {
-            
-        }
+        data() {
+            return {
+                its_working: false
+            }
+        },
     }
 
 </script>
