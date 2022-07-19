@@ -17,7 +17,7 @@
             }, 2000)
         },
         mounted() {
-               setTimeout(() => {
+            setTimeout(() => {
                 this.name = 'Hataro-sann',
                 console.log('created 02')
             }, 4000)
