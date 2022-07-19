@@ -5,6 +5,7 @@
   <Pessoa></Pessoa>
   <Info></Info>
   <Button></Button>
+  <Forms></Forms>
   
 </template>
 
@@ -14,6 +15,7 @@
   import Pessoa from './components/Pessoa.vue'
   import Info from './components/Info.vue'
   import Button from './components/Button.vue'
+  import Forms from './components/Forms.vue'
 
   export default {
     name: 'App',
@@ -23,6 +25,7 @@
       Pessoa,
       Info,
       Button,
+      Forms
     }
   }
 </script>
