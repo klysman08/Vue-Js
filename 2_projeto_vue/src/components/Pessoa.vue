@@ -17,7 +17,7 @@ import Info from './Info.vue'
     }
 </script>
 
-<style>
+<style scoped>
     h3 {
         color: rgb(27, 166, 190);
         font-family: 'Roboto', sans-serif;

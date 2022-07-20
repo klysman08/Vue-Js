@@ -1,10 +1,10 @@
 <template>
-
+  <Header></Header>
   <PrimeiroComponte />
   <LifeCycle></LifeCycle>
   <Pessoa></Pessoa>
   <Info></Info>
-  <Button></Button>
+  <!-- <Button></Button> -->
   <Forms></Forms>
   <Picture></Picture>
   
@@ -18,10 +18,12 @@
   import Button from './components/Button.vue'
   import Forms from './components/Forms.vue'
   import Picture from './components/Picture.vue'
+  import Header from './components/Header.vue'
 
   export default {
     name: 'App',
     components: {
+      Header,
       PrimeiroComponte,
       LifeCycle,
       Pessoa,
@@ -32,3 +34,21 @@
     }
   }
 </script>
+
+<style>
+  body {
+    background-color: rgb(255, 255, 255)  }
+  img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+  h1 {
+    color: rgb(27, 166, 190);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 20px;
+  }
+
+</style>

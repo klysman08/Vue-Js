@@ -1,9 +1,9 @@
 <template>
 
-        <form  action="">
-            <input type="text" name="nome" placeholder="Nome">
-            <input type="text" name="sobrenome" placeholder="Sobrenome">
-            <input type="submit" value="Enviar" v-on:click="enviar">
+        <form  action="" @submit="SendForm">
+            <input type="text" v-model=nome placeholder="Nome">
+            <input type="text" v-model=email placeholder="Sobrenome">
+            <input type="submit" value="Enviar">
         </form>
 
 </template>
@@ -13,13 +13,21 @@
         name: 'Forms',
         data() {
             return {
-                nome: 'Hataro-san',
-                sobrenome: 'san',
+                nome: '',
+                email: '',
             }
         },
         methods: {
             enviar() {
                 console.log(this.nome, this.sobrenome)
+            },
+            SendForm(e) {
+                e.preventDefault();
+                const name = this.nome;
+                const email = this.email;
+
+                console.log('Formulário enviado')
+                console.log(name, email)
             }
         }
     }

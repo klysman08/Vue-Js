@@ -14,10 +14,3 @@
     }
 </script>
 
-<style scoped>
-    img {
-        width: 100px;
-        height: 100px;
-        margin: 20px;
-    }
-</style>
