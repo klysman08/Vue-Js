@@ -7,7 +7,7 @@
         name: 'Picture',
         data() {
             return {
-                avatar: "/img/bear.gif",
+                avatar: "/img/preview.jpg",
                 description: "This is a description"
             }
         }

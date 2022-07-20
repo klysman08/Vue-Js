@@ -7,6 +7,7 @@
   <!-- <Button></Button> -->
   <Forms></Forms>
   <Picture></Picture>
+  <MultiplosEvents></MultiplosEvents>
   
 </template>
 
@@ -19,6 +20,7 @@
   import Forms from './components/Forms.vue'
   import Picture from './components/Picture.vue'
   import Header from './components/Header.vue'
+  import MultiplosEvents from './components/MultiplosEvents.vue'
 
   export default {
     name: 'App',
@@ -30,7 +32,8 @@
       Info,
       Button,
       Forms,
-      Picture
+      Picture,
+      MultiplosEvents
     }
   }
 </script>
@@ -47,6 +50,13 @@
     color: rgb(27, 166, 190);
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
+    font-weight: 300;
+    margin: 20px;
+  }
+  p {
+    color: rgb(9, 58, 90);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
     font-weight: 300;
     margin: 20px;
   }
