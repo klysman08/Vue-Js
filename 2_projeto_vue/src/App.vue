@@ -3,7 +3,8 @@
   <PrimeiroComponte />
   <LifeCycle></LifeCycle>
   <Pessoa></Pessoa>
-  <Info></Info>
+  <Pessoa></Pessoa>
+ <!--  <Info></Info> -->
   <!-- <Button></Button> -->
   <Forms></Forms>
   <Picture></Picture>

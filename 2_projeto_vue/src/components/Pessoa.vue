@@ -1,5 +1,6 @@
 <template>
     <h3> {{name}}</h3>
+    <Info :email="email"></Info>
 </template>
 
 <script>
@@ -11,7 +12,8 @@ import Info from './Info.vue'
         },
         data() {
             return {
-                name: 'Hello Vue Pessoa'
+                name: 'Hello Vue Pessoa',
+                email: 'Hataro-san@anihub.tv'
             }
         },
     }

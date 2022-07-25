@@ -1,4 +1,6 @@
 <template>
+    <p>{{email}}</p>
+    <p>{{email}}</p>
     <p>Pariatur ex sit eu nisi ipsum et deserunt velit cupidatat nisi incididunt reprehenderit. Elit nulla Lorem eiusmod elit
     in incididunt eiusmod dolore aliqua ea. Ea elit anim officia non aliquip ea id in do pariatur cillum sit irure aliquip. 
     Anim qui est labore cupidatat aute nulla cillum excepteur qui incididunt.
@@ -31,11 +33,17 @@
 <script>
     export default {
         name: 'Info',
+        props: {
+            email: {
+                type: String,
+                required: true
+            }
+        },
         data() {
             return {
                 its_working: true, 
                 show_email: false,
-                email: 'Hataro-san@anime.jp',
+                /* email: 'Hataro-san@anime.jp', */
                 status_email: 'Show email',
                 backend_technologies: ["JavaScript", "PHP", "Python"],
                 frontend_technologies: ["HTML", "CSS", "Vue"]
