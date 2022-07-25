@@ -22,7 +22,7 @@
                 setTimeout(() => {
                     this.multiplos_events = txt2;
                     console.log(this.multiplos_events)
-                }, 1000);
+                }, 2000);
             }
         }
     }

@@ -8,6 +8,9 @@
   <Forms></Forms>
   <Picture></Picture>
   <MultiplosEvents></MultiplosEvents>
+  <Reutilizacao></Reutilizacao>
+  <Reutilizacao></Reutilizacao>
+  <Reutilizacao></Reutilizacao>
   
 </template>
 
@@ -21,6 +24,7 @@
   import Picture from './components/Picture.vue'
   import Header from './components/Header.vue'
   import MultiplosEvents from './components/MultiplosEvents.vue'
+  import Reutilizacao from './components/Reutilizacao.vue'
 
   export default {
     name: 'App',
@@ -33,7 +37,8 @@
       Button,
       Forms,
       Picture,
-      MultiplosEvents
+      MultiplosEvents,
+      Reutilizacao
     }
   }
 </script>
