@@ -1,0 +1,29 @@
+<template>
+    <div id="nav">
+<!--         <router-link to="/">
+            <img src="" id="logo" alt="logo">
+        </router-link> -->
+
+        <router-link to="/">Home</router-link> |
+        <router-link to="/pedidos">Pedidos</router-link>
+        
+    </div>
+
+</template>
+
+<script>
+export default {
+    name: 'Navbar',
+    components: {
+        
+    }
+}
+</script>
+
+<style scoped>
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+</style>

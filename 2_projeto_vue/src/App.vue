@@ -12,6 +12,7 @@
   <Reutilizacao></Reutilizacao>
   <Reutilizacao></Reutilizacao>
   <Reutilizacao></Reutilizacao>
+  <Graph></Graph>
   
 </template>
 
@@ -26,6 +27,7 @@
   import Header from './components/Header.vue'
   import MultiplosEvents from './components/MultiplosEvents.vue'
   import Reutilizacao from './components/Reutilizacao.vue'
+  import Graph from './components/Graph.vue'
 
   export default {
     name: 'App',
@@ -39,7 +41,8 @@
       Forms,
       Picture,
       MultiplosEvents,
-      Reutilizacao
+      Reutilizacao,
+      Graph
     }
   }
 </script>
