@@ -24,23 +24,20 @@ export default {
 </script>
 
 <style>
-
   * {
-    font-family: "Helvitica", sans-serif;
+    font-family: Helvetica;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
-  .main-conteiner {
-    margin: 50px auto;
-    min-height: 205px;
+  .main-container {
+    margin: 50px;
+    min-height: 250px;
   }
-
   h1 {
-    font-size: 30px;
-    font-weight: bold;
     text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #222;
   }
-
-
 </style>
