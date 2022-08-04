@@ -79,15 +79,31 @@
     {
       "id": 3,
       "tipo": "Finalizado"
+    },
+    {
+      "id": 4,
+      "tipo": "Cancelado"
     }
   ],
   "burgers": [
     {
       "nome": "Klysman Rezende",
-      "carne": "Alcatra",
+      "carne": "Maminha",
       "pao": "Italiano Branco",
       "opcionais": [
-        "Cheddar"
+        "Cebola roxa",
+        "Alface"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Klysman Rezende",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Cebola roxa",
+        "Alface"
       ],
       "status": "Solicitado",
       "id": 1

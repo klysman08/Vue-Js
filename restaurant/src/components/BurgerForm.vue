@@ -1,5 +1,5 @@
 <template>
-  <Message :msg="msg" v-show="msg" />
+  <Message :msg="msg" :teste="Hellocomponent" v-show="msg" />
   <div>
     <form id="burger-form" method="POST" @submit="createBurger">
       <div class="input-container">
@@ -49,7 +49,8 @@ export default {
       carne: null,
       opcionais: [],
       status: "Solicitado",
-      msg: null
+      msg: null,
+      Hellocomponent: "Hello World"
     }
   },
   methods: {
@@ -60,6 +61,7 @@ export default {
       this.paes = data.paes
       this.carnes = data.carnes
       this.opcionaisdata = data.opcionais
+
     },
 
     async createBurger(e) {
@@ -86,7 +88,7 @@ export default {
 
       console.log(res)
 
-      this.msg = "Pedido realizado com sucesso!"
+      this.msg = 'Pedido realizado com sucesso!';
 
       // clear message
       setTimeout(() => this.msg = "", 3000)

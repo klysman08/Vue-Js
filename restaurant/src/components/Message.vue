@@ -1,6 +1,7 @@
 <template>
   <div class="message-container">
     <p>{{ msg }}</p>
+    <p>{{ teste }}</p>
   </div>
 </template>
 
@@ -9,6 +10,7 @@
     name: "Message",
     props: {
       msg: '',
+      teste: '',
     }
   }
 </script>

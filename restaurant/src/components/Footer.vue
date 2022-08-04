@@ -22,7 +22,7 @@ export default {
         justify-content: center;
         align-items: center;
         bottom: 0;
-        height: 200px;
+        height: 50px;
         /* menu fixed in bottom */
         position: fixed;
         width: 100%;
