@@ -1,0 +1,17 @@
+{
+    "trailingComma": "none",
+    "semi": true,
+    "semicolon": true,
+    "arrowParens": "always",
+    "singleQuote": true,
+    "endOfLine": "auto",
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.css",
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}
