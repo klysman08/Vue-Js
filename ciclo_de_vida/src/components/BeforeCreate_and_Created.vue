@@ -10,7 +10,7 @@ export default defineComponent({
     name: 'BeforeCreate_and_Created',
     data() {
         return {
-            message: 'Hello Created'
+            message: 'Before Created and Created'
         };
     },
     beforeCreate() {
