@@ -21,9 +21,10 @@ export default defineComponent({
         //console.log('beforeUpdate');
     },
     updated() {
-        console.log('update');
+        console.log('Atualizando');
         if (this.count > 5) {
             this.count = 0;
+            console.log('Zerado');
         }
     }
 });
