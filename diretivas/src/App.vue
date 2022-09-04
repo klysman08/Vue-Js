@@ -5,6 +5,8 @@
         <Diretiva_von></Diretiva_von>
         <Diretiva_vonce></Diretiva_vonce>
         <Diretiva_vif></Diretiva_vif>
+        <Diretiva_vfor></Diretiva_vfor>
+        <Diretiva_vmodel></Diretiva_vmodel>
     </div>
 </template>
 
@@ -15,6 +17,8 @@ import Diretiva_vhtml from './components/Diretiva_vhtml.vue';
 import Diretiva_von from './components/Diretiva_von.vue';
 import Diretiva_vonce from './components/Diretiva_vonce.vue';
 import Diretiva_vif from './components/Diretiva_vif.vue';
+import Diretiva_vfor from './components/Diretiva_vfor.vue';
+import Diretiva_vmodel from './components/Diretiva_vmodel.vue';
 
 export default defineComponent({
     name: 'App',
@@ -23,13 +27,36 @@ export default defineComponent({
         Diretiva_vhtml,
         Diretiva_von,
         Diretiva_vonce,
-        Diretiva_vif
+        Diretiva_vif,
+        Diretiva_vfor,
+        Diretiva_vmodel
     }
 });
 </script>
 
 <style>
 /* From uiverse.io by @kirzin */
+
+body {
+    background: #141f36;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 0;
+}
+input {
+    background: #1e2a4d;
+    border: 1px solid #1e2a4d;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    margin: 20px;
+    display: block;
+}
+
 button {
     font: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, uppercase;
