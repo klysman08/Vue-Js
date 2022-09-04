@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <h1>Directiva v-bind</h1>
+        <h1>Directiva V-BIND</h1>
         <p v-bind:title="titulo">{{ titulo }}</p>
         <!-- v-for para minha lista de produtos -->
         <div v-for="produto in produtos" :key="produto.id">
